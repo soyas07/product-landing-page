@@ -1,8 +1,11 @@
 import React from 'react'
+import Logo from './components/Logo/Logo'
 
 const App = () => {
     return (
-        <div>App</div>
+        <div>
+            <Logo type='primary' />
+        </div>
     )
 }
 
