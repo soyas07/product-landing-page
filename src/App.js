@@ -4,7 +4,9 @@ import Logo from './components/Logo/Logo'
 const App = () => {
     return (
         <div>
-            <Logo type='primary' />
+            <section className='main-container'>
+                {/* <Logo type='primary' /> */}
+            </section>
         </div>
     )
 }

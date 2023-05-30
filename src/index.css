@@ -10,7 +10,7 @@
   --input-primary-color: rgba(208, 208, 208, 1);
   
   /* default sizes */
-  --primary-font-size: 13.5px;
+  --primary-font-size: 11px;
   
   /* typography */
   --p1-font-weight: 800;
@@ -31,4 +31,9 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+  background: var(--background-color);
+  min-height: 100vh;
 }
