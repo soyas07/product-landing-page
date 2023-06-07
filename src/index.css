@@ -7,7 +7,8 @@
   --comp-color: #fff;
   --background-color: linear-gradient(217deg, #CB1AE8 0%, #37BDA6 100%);
   --btn-primary-color: rgba(48, 215, 186, 1);
-  --input-primary-color: rgba(208, 208, 208, 1);
+  --btn-secondary-color: #03D6F3;
+  --btn-featured-primary-color: rgba(208, 208, 208, 1);
   
   /* default sizes */
   --primary-font-size: 11px;
@@ -36,4 +37,16 @@ body {
 .main-container {
   background: var(--background-color);
   min-height: 100vh;
+}
+
+@media only screen and (min-width: 500px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  html {
+    font-size: 16px;
+  }
 }
