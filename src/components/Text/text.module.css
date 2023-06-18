@@ -1,0 +1,53 @@
+.header1 {
+    font-weight: 900;
+    font-size: 3.92rem;
+    letter-spacing: 0.2px;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header2 {
+    font-weight: var(--p3-font-weight);
+    font-size: 3.28rem;
+}
+
+.header3 {
+    font-weight: var(--p2-font-weight);
+    font-size: 2.14rem;
+}
+
+.header4 {
+    font-weight: var(--p2-font-weight);
+    font-size: 1rem;
+}
+
+.btnTxt {
+    font-weight: var(--p3-font-weight);
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.smallTxt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--p2-font-weight);
+    font-size: 0.85rem;
+    line-height: 1.28rem;
+}
+
+.featuredTxt {
+    font-weight: var(--p4-font-weight);
+    line-height: 1.92rem;
+    font-size: 1.28rem;
+    color: rgba(92, 92, 92, 1);
+}
+
+.linkTxt {
+    font-weight: var(--p4-font-weight);
+    line-height: 1.92rem;
+    font-size: 1.08rem;
+}
+
+.mobileTxt {
+    font-weight: var(--p4-font-weight);
+    line-height: 3.21rem;
+    font-size: 2.14rem;
+}
