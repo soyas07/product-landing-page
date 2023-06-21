@@ -38,16 +38,21 @@ body {
 .main-container {
   background: var(--background-color);
   min-height: 100vh;
+  margin: 0 auto;
+}
+
+.hide-element {
+  display: none;
 }
 
 @media only screen and (min-width: 500px) {
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
 @media only screen and (min-width: 700px) {
   html {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
