@@ -1,0 +1,12 @@
+.logo {
+    width: 11.25rem;
+    height: 3.6rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 900px) {
+    .logo {
+        width: 14.625rem;
+        height: 4.68rem;
+    }
+}

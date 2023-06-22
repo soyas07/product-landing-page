@@ -1,8 +1,17 @@
 import React from 'react'
+import Navbar from './components/Navbar/Navbar'
 
 const App = () => {
     return (
-        <div>App</div>
+        <div>
+            <section className='main-container'>
+                <Navbar />
+                {/* <Text
+                    text='lorem'
+                    variant='h1'
+                /> */}
+            </section>
+        </div>
     )
 }
 

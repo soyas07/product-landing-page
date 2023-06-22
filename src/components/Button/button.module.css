@@ -1,0 +1,76 @@
+button {
+    padding: 1.3rem .5rem;
+    min-width: 9rem;
+    border-radius: 2.81rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+}
+
+.primaryBtn {
+    background-color: rgba(0,0,0,0);
+    color: var(--comp-color);
+    border: 1px solid var(--comp-color);
+    transition: background-color ease .2s;
+}
+
+.primaryBtn:hover {
+    cursor: pointer;
+    background-color: var(--comp-color);
+    color: rgba(17, 45, 87, 1);
+}
+
+.primaryFilledBtn {
+    background-color: var(--comp-color);
+    color: rgba(17, 45, 87, 1);
+    border: none;
+    /* box-shadow: -6px -10px 48px 1px rgba(0,0,0,0.7); */
+    box-shadow: 0px, 4px rgba(0, 0, 0, 0.15)
+}
+
+.secondaryBtn {
+    cursor: pointer;
+    background-color: var(--comp-color);
+    color: var(--btn-primary-color);
+    border: 1px solid var(--btn-primary-color);
+}
+
+.secondaryFilledBtn,
+.secondaryBtn:hover {
+    color: var(--comp-color);
+    background-color: var(--btn-secondary-color);
+    transition: background-color ease .2s;
+}
+
+.featuredPrimary,
+.featuredSecondary {
+    border-radius: 7px;
+}
+
+.featuredPrimary {
+    background-color: var(--btn-featured-primary-color);
+    transition: background-color ease .2s;
+}
+
+.featuredSecondary,
+.featuredPrimary:hover {
+    background-color: var(--btn-secondary-color);
+    color: var(--comp-color);
+    box-shadow: 0px, 4px rgba(0, 0, 0, 0.15);
+}
+
+  
+@media only screen and (min-width: 700px) {
+    button {
+        padding: 1.3rem .5rem;
+        min-width: 11rem;
+        border: none;
+    }
+    
+}
+
+@media only screen and (min-width: 900px) {
+    .primaryBtn {
+        min-width: 15rem;
+    }
+}
