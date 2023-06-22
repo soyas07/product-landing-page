@@ -45,6 +45,11 @@ body {
   display: none;
 }
 
+.margin-edge {
+  margin: 0 auto;
+  width: 90%;
+}
+
 @media only screen and (min-width: 500px) {
   html {
     font-size: 12px;

@@ -2,10 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
-    width: 90%;
     height: 14vh;
     max-width: 1800px;
+    margin-bottom: 4rem;
 }
 
 .btnMenuWrapper {
@@ -42,7 +41,18 @@
 
 /* mobile and smaller screens */
 
+@media only screen and (min-width: 700px) {
+    .navbarContainer {
+        margin-bottom: 5rem;
+    }
+}
+
+
 @media only screen and (min-width: 1000px) {
+    .navbarContainer {
+        margin-bottom: 10rem;
+    }
+    
     #navLinks {
         display: flex;
     }

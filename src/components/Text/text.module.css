@@ -1,8 +1,8 @@
 .header1 {
-    font-weight: 900;
+    font-weight: 400;
     font-size: 3.92rem;
     letter-spacing: 0.2px;
-    text-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+    line-height: 5.19rem;
 }
 
 .header2 {
@@ -50,4 +50,13 @@
     font-weight: var(--p4-font-weight);
     line-height: 3.21rem;
     font-size: 2.14rem;
+}
+
+/* mobile and smaller screens */
+
+@media only screen and (min-width: 1000px) {
+    .header1 {
+        font-weight: 900;
+        text-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+    }
 }

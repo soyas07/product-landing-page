@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './button.module.css'
 
-const Button = ({ title, varaint, width, height }) => {
+const Button = ({ title, varaint, width, height, marginBottom, marginLeft, classname }) => {
     let classType = '';
     switch (varaint) {
         case 'primary':
@@ -27,7 +27,7 @@ const Button = ({ title, varaint, width, height }) => {
     }
 
     return (
-        <button className={classType} style={{width, height}}>{title}</button>   
+        <button className={`${classType} ${classname}`} style={{width, height, marginBottom, marginLeft}}>{title}</button>   
     )
 }
 

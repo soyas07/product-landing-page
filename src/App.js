@@ -1,4 +1,5 @@
 import React from 'react'
+import Home from './components/Home/Home'
 import Navbar from './components/Navbar/Navbar'
 
 const App = () => {
@@ -6,10 +7,7 @@ const App = () => {
         <div>
             <section className='main-container'>
                 <Navbar />
-                {/* <Text
-                    text='lorem'
-                    variant='h1'
-                /> */}
+                <Home />
             </section>
         </div>
     )
