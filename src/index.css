@@ -39,6 +39,30 @@ body {
   background: var(--background-color);
   min-height: 100vh;
   margin: 0 auto;
+  margin-bottom: 8rem;
+}
+
+.featured-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1800px;
+  width: 83%;
+  margin: 0 auto;
+}
+
+.featured-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.title-wrapper {
+  max-width: 250px;
+  margin-bottom: 4rem;
 }
 
 .hide-element {
@@ -54,10 +78,20 @@ body {
   html {
     font-size: 12px;
   }
+  .title-wrapper {
+    max-width: 500px;
+  }
 }
 
 @media only screen and (min-width: 700px) {
   html {
     font-size: 14px;
+  }
+  .title-wrapper {
+    max-width: 980px;
+  }
+
+  .featured-wrapper {
+    justify-content: space-around;
   }
 }
