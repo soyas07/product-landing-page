@@ -50,6 +50,7 @@ body {
   max-width: 1800px;
   width: 83%;
   margin: 0 auto;
+  margin-bottom: 5rem;
 }
 
 .featured-wrapper {
