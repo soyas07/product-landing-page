@@ -8,6 +8,7 @@
 .header2 {
     font-weight: var(--p3-font-weight);
     font-size: 3.28rem;
+    line-height: 4.5rem;
 }
 
 .header3 {
