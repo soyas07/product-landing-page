@@ -52,12 +52,32 @@ body {
   margin-bottom: 5rem;
 }
 
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 83%; 
+}
+
 .featured-wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.price-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 83%;
+  max-width: 900px;
+  margin-bottom: 10rem;
 }
 
 .title-wrapper {
