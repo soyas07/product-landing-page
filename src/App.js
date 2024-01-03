@@ -18,6 +18,7 @@ import solutionIcon from './assets/solution.svg'
 import basicImg from './assets/basic.png'
 import intermediateImg from './assets/intermediate.png'
 import expertImg from './assets/expert.png'
+import Button from './components/Button/Button'
 
 const App = () => {
     return (
@@ -118,6 +119,45 @@ const App = () => {
                         type='expert'
                         price='99'
                     />
+                </div>
+            </section>
+            <hr style={{marginBottom:'10rem',border:'1px solid #DEDEDE'}}/>
+            <section className='subscribe-container'>
+                <div className='subscribe-txt-wrapper'>
+                    <Text 
+                        text='SUBSCRIBE'
+                        variant='h2'
+                        fontSize='3.92rem'
+                        color='black'
+                        fontWeight='500'
+                        textAlign='center'
+                        marginBottom='2rem'
+                    />
+                    <Text 
+                        text='Subscribe to get exclusive news & offer'
+                        variant='featured-txt'  
+                        color='#5C5C5C'
+                        fontWeight='500'
+                        textAlign='center'
+                        marginBottom='5rem'
+                    />
+                    <div className='btn-wrapper'>
+                        {/* <Button
+                            title='Enter Your Address Email'
+                            varaint='featured-primary'
+                            width='100%'
+                            classname='featured-btn'
+                            marginBottom='1rem'
+                        /> */}
+                        <input type='text' className='email-subscriber' name='email' placeholder='Enter Your Address Email' />
+                        <Button
+                            title='Subscribe'
+                            varaint='featured-secondary'
+                            width='100%'
+                            classname='featured-btn'
+                            marginBottom='1rem'
+                        />
+                    </div>
                 </div>
             </section>
         </div>
