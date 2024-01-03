@@ -13,6 +13,7 @@ button {
     color: var(--comp-color);
     border: 1px solid var(--comp-color);
     transition: background-color ease .2s;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
 }
 
 .primaryBtn:hover {
@@ -41,11 +42,14 @@ button {
     color: var(--comp-color);
     background-color: var(--btn-secondary-color);
     transition: background-color ease .2s;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
 }
 
 .featuredPrimary,
 .featuredSecondary {
     border-radius: 7px;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+
 }
 
 .featuredPrimary {

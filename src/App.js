@@ -19,6 +19,7 @@ import basicImg from './assets/basic.png'
 import intermediateImg from './assets/intermediate.png'
 import expertImg from './assets/expert.png'
 import Button from './components/Button/Button'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
     return (
@@ -160,6 +161,7 @@ const App = () => {
                     </div>
                 </div>
             </section>
+            <Footer />
         </div>
     )
 }
