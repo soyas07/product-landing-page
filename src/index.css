@@ -73,7 +73,7 @@ body {
 .price-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
   width: 83%;
   max-width: 900px;
@@ -92,6 +92,35 @@ body {
 .margin-edge {
   margin: 0 auto;
   width: 90%;
+}
+
+.subscribe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-txt-wrapper {
+  min-width: 350px;
+  max-width: 500px;
+}
+
+.featured-btn {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.email-subscriber {
+  padding: 1.45rem 4.36rem;
+  width: 100%;
+  border-radius: 7px;
+  background-color: #EFEFEF;
+  border: 1px solid #D0D0D0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 500px) {
@@ -113,5 +142,24 @@ body {
 
   .featured-wrapper {
     justify-content: space-around;
+  }
+
+  .price-wrapper {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .subscribe-txt-wrapper {
+    min-width: 40rem;
+  }
+
+  .featured-btn {
+    margin-left: 1rem;
   }
 }
